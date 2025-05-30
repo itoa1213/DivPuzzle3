@@ -6,21 +6,31 @@
 }
 .wrapper {
 	width: 400px;
-	height: 450px;
+	margin: 0 auto;
 	position: relative;
 }
 .longred{
-	width: 400px;
 	height: 100px;
 	background: #ff0000;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
 	padding-right: 20px;
 	position: relative;
 }
 
+.top-boxes {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	box-sizing: border-box;
+}
+
+.box-wrapper {
+	float: left;
+	background: #ffffff;
+	padding: 10px;
+}
 .box.small{
+	float: left;
 	width: 40px;
 	height: 40px;
 	background: #a9004b;
@@ -37,20 +47,9 @@
 	width: 250px;
 	height: 250px;
 	background: #8c2727;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
 	padding: 10px;
 	position: relative;
 	box-sizing: border-box;
-}
-.top-boxes {
-	display: flex;
-	gap: 10px;
-	position: absolute;
-	top: 50%;
-	right: 20px;
-	transform: translateY(-50%);
 }
 
 .bottom-boxes{
@@ -70,6 +69,5 @@
 	width: 400px;
 	height: 100px;
 	background: #ffd000;
-	clear: both;
 	position: relative;
 }
