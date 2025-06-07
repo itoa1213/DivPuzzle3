@@ -7,34 +7,38 @@
 .wrapper {
 	width: 400px;
 	margin: 0 auto;
-	position: relative;
 }
 .longred{
 	height: 100px;
 	background: #ff0000;
-	padding-right: 20px;
 	position: relative;
 }
 
 .top-boxes {
 	position: absolute;
-	top: 50%;
-	right: 20px;
-	transform: translateY(-50%);
+	top: 25px;
+	right: 25px;
 	box-sizing: border-box;
+	padding: 10px;
+	background: #ffffff;
 }
 
 .box-wrapper {
 	float: left;
-	background: #ffffff;
-	padding: 10px;
+	margin-right: 10px;
 }
+
+.box-wrapper:last-child {
+	margin-right: 0;
+}
+
 .box.small{
-	float: left;
 	width: 40px;
 	height: 40px;
 	background: #a9004b;
+	margin: 0;
 }
+
 .left{
 	float: left;
 	width: 150px;
@@ -47,15 +51,14 @@
 	width: 250px;
 	height: 250px;
 	background: #8c2727;
-	padding: 10px;
 	position: relative;
 	box-sizing: border-box;
 }
 
 .bottom-boxes{
-	padding-top: 40px;
-  padding-left: 40px;
 	position: relative;
+	top: 40px;
+	left: 40px;
 }
 .box.large{
 	width: 140px;
