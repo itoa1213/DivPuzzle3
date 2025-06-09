@@ -16,27 +16,23 @@
 
 .top-boxes {
 	position: absolute;
-	top: 25px;
-	right: 25px;
+	top: 20px;
+	right: 20px;
 	box-sizing: border-box;
 	padding: 10px;
 	background: #ffffff;
 }
 
-.box-wrapper {
-	float: left;
-	margin-right: 10px;
-}
-
-.box-wrapper:last-child {
-	margin-right: 0;
-}
-
 .box.small{
+	float: left;
 	width: 40px;
 	height: 40px;
 	background: #a9004b;
-	margin: 0;
+	margin-right: 10px;
+}
+
+.box.small:last-child {
+  margin-right: 0;
 }
 
 .left{
@@ -51,7 +47,6 @@
 	width: 250px;
 	height: 250px;
 	background: #8c2727;
-	position: relative;
 	box-sizing: border-box;
 }
 
@@ -61,6 +56,7 @@
 	left: 40px;
 }
 .box.large{
+	padding-top: 1px;
 	width: 140px;
 	height: 40px;
 	background: #ff863f;
