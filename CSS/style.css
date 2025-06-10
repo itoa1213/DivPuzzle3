@@ -43,6 +43,7 @@
 }
 
 .right{
+	position: relative;
 	float: left;
 	width: 250px;
 	height: 250px;
@@ -51,7 +52,7 @@
 }
 
 .bottom-boxes{
-	position: relative;
+	position: absolute;
 	top: 40px;
 	left: 40px;
 }
@@ -64,6 +65,11 @@
 	box-sizing: border-box;
 	margin-bottom: 10px;
 }
+
+.box.large:last-child {
+  margin-bottom: 0;
+}
+
 .footer{
 	width: 400px;
 	height: 100px;
